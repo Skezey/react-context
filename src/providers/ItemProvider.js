@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
+//provides todo item to entire app
 
 const ItemContext = React.createContext();
 

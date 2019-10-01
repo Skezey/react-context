@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 const AccountContext = React.createContext();
 export const AccountConsumer = AccountContext.Consumer;
+//provides account info to the entire app
 
 class AccountProvider extends Component {
   state = {
@@ -21,7 +22,6 @@ class AccountProvider extends Component {
       </AccountContext.Provider>
     )
 	}
-
 }
 
 export default AccountProvider;
